@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Covacc </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <style>
+      .container {
+    display: table;
+}
+.centered {
+    display: table-cell;
+      height: 50px;
+      width: 20x;
+      background-image: url('home1.jpg');
+    text-align: center;
+    vertical-align: middle;
+    }
+    #mySidenav a {
+            position: absolute;
+            left: -80px;
+            margin: 90px;
+            transition: 0.3s;
+            padding: 15px;
+            width: 200px;
+            text-decoration: none;
+            font-size: 16px;
+            color: white;
+            border-radius: 0 5px 5px 0;
+        }
+        #risk {
+            position: absolute;
+            left: 200px;
+            padding: 15px;
+            margin: 36px;
+            width: 36%;
+            background-color: rgba(22, 82, 194, 0.466);
+            font-size: 15px;
+            color: white;
+            border-radius: 3px 3px 3px 3px;
+        }
+        #graphs {
+            position: absolute;
+            left: 700px;
+            padding: 15px;
+            margin: 36px;
+            width: 36%;
+            background-color: #1c2061e5;
+            font-size: 15px;
+            color: rgba(146, 255, 188, 0.925);
+            border-radius: 3px 3px 3px 3px;
+
+        }
+        #mySidenav a:hover {
+            left: 0;
+
+        }
+        #AboutCovid {
+            top: 90px;
+            width: 70px;
+            background-color: #2196F3;
+        }
+
+        #symptoms {
+            top: 150px;
+            background-color: #2196F3;
+        }
+
+        #riskrate {
+            top: 230px;
+            background-color: #2196F3;
+        }
+
+        #ifsick {
+            top: 290px;
+            background-color: #2196F3
+        }
+
+        #care {
+            top: 350px;
+            background-color: #2196F3
+        }
+    </style>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">CovaccApp</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">CovidInfo
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="AboutCovid.html">AboutCovid</a></li>
+                        <li><a href="Symptoms&Precautions.html">Symptoms&Precautions</a></li>
+                        <li><a href="Covid Current Risk Rate.html">Covid Current Risk Rate</a></li>
+                        <li><a href="Steps To Take If Tested Positive.html">Steps To Take If Tested Positive</a></li>
+                        <li><a href="Mental Care.html">Mental Care</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">VaccineInfo
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="Vaccine Varients.html">Vaccine Varients</a></li>
+                        <li><a href="Precautions to consider.html">Precautions to consider </a></li>
+                        <li><a href="Current Vaccination Rate.html">Current Vaccination Rate</a></li>
+                        <li><a href="Your Personal Vaccination Info.html">Yor Personal Vaccination Info</a></li>
+                        <li><a href="AfterVaccine.html">After Vaccination</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="HealthRecord.html ">HealthRecord</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Contact Us</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Log Out</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    </div>
+
+
+    <div id="mySidenav" class="sidenav">
+        <a href="#" id="AboutCovid">About covid</a>
+        <a href="#" id="symptoms">Symptoms & Precautions</a>
+        <a href="#" id="riskrate">Current Risk Rate</a>
+        <a href="#" id="ifsick">If You are Sick</a>
+        <a href="#" id="care">Mental Care</a>
+    </div>
+     
+    <div id= ".centered">
+    <div  style="background-image: url(home1.jpg); background-size: 100%;">
+      <div class="container for-about">
+      <h1 style="text-align: center;">Current Risk Rate</h1>
+      </div>
+   </div>
+  </div>
+   
+ <div  style="background-image: url(home1.jpg); background-size: 100%;">
+
+    <div id="risk">
+      <h3 style="text-align: center;"> Who  is at risk for severe Covid-19? </h3> <br>
+      <p style="text-align: center;"> COVID-19 is a new disease. 
+     Among adults, the risk for severe illness from COVID-19 increases with age, 
+     with older adults at highest risk. Severe illness means that the person with COVID-19
+      may require hospitalization, intensive care, or a ventilator to help them breathe, 
+      or they may even die. People of any age with certain underlying medical conditions 
+      are also at increased risk for severe illness from SARS-CoV-2 infection.
+      <br>
+      <br>
+      <h1 style="font-size:2.25rem;">Who is at risk for infection with SARS-CoV-2, the virus 
+        that causes Covid-19?</h1>
+        <br>
+        
+    Currently, those at greatest risk of infection are persons who have had prolonged, 
+     unprotected close contact (i.e., within 6 feet for 15 minutes or longer) with a patient
+      with confirmed SARS-CoV-2 infection, regardless of whether the patient has symptoms. 
+      Persons frequently in congregate settings (e.g., homeless shelters, assisted living facilities,
+       college or university dormitories) are at increased risk of acquiring infection because of the 
+       increased likelihood of close contact. Those who live in or have recently been to areas with 
+       sustained transmission may also be at higher risk of infection. All persons can reduce the risk
+        to themselves and others by wearing a mask, practicing physical distancing, washing their hands often,
+         and taking other prevention measures.
+
+        </p>
+    </div>
+
+        <div id="graphs">
+          <h3 style="text-align: center;">Here are the graphs which shows data from all 
+            over world and from United States:</h3> 
+            <br>
+          <p style="text-align: center;">Cummulative Tests and new confirmed COVID-19 cases per day, 
+            All Country  
+           <br>
+           <br>
+             
+              <img src="covid-tests-cases-deaths-per-million.png"  style="width: 400px; 
+              height: 400px; padding: 10px; border-radius: 2px; align-items: center;">
+              <br>
+              <br>
+              Tests and new confirmed COVID-19 cases per day, United States
+              <br>           
+              <br>
+              <img class="middle-img" src="daily-tests-and-daily-new-confirmed-covid-cases.png" 
+              style="width: 400px; height: 400px; padding: 10px; border-radius: 2px; align-items: center;">
+               
+            </p>  
+          
+        </div>  
+    </div>
+  </body>
+</html>
+               
+               
