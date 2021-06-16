@@ -45,7 +45,7 @@ All the required data regarding vaccination will be provided to user and also us
 
   <img src="vsv.png" alt="drawing" width="150" style="border-radius:50%" />                  <img src="SM.png" alt="drawing" width="150" style="border-radius:50%" /> 
   
- <img src="dp.png" alt="drawing" width="150" style="border-radius:50%" />               <img src="PV.png" alt="drawing" width="150" style="border-radius:50%" />              
+ <img src="dp.jpg" alt="drawing" width="150" style="border-radius:50%" />               <img src="PV.png" alt="drawing" width="150" style="border-radius:50%" />              
        
    
   [Sai Varsha Vellanki](https://github.com/cherryvarsha99) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  [Sreenidhi Madala](https://github.com/Sreenidhi17)  &nbsp;&nbsp;&nbsp;&nbsp;   
