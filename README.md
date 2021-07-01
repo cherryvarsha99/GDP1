@@ -17,7 +17,7 @@ COVVAC is here to help you protect yourself from the virus and decrease the risk
 
 
 ## App Name and Logo :
-CavVac App by Team Gandora 
+COVVAC website  by Team Gandora 
 
 ## Sequence of the application :
 
