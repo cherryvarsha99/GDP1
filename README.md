@@ -44,7 +44,6 @@ All the required data regarding vaccination will be provided to user and also us
 ## Contributors :
 
   <img src="vsv.png" alt="drawing" width="150" style="border-radius:50%" />                  <img src="SM.png" alt="drawing" width="150" style="border-radius:50%" /> 
-  
  <img src="PA.png" alt="drawing" width="150" style="border-radius:50%" />               <img src="PV.png" alt="drawing" width="150" style="border-radius:50%" />              
        
    
