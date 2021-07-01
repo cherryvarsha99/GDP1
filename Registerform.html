@@ -1,29 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
 
+<head>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
-        *{
-            box-sizing: border-box;
-        }
-
         body {
             font-family: "Roboto", sans-serif;
-            background-color: powderblue;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            overflow: hidden;
+            background-image: url(CovvacR.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            backdrop-filter: blur(4px);
+            background-size: 100% 100%;
             margin: 0;
+
         }
 
-        input{
+       input {
             padding: 5px;
             border-radius: 5px;
+            font-style: italic;
             border-color: white;
         }
 
@@ -32,33 +28,58 @@
         }
 
         table {
-            color: brown;
+            color: #0c2938;
+            font-size: medium;
+            
         }
 
-        td{
+        td {
             padding: 10px;
         }
 
         button {
-            background-color: rgba(130, 236, 162, 0.815);
-            border-radius: 5px;
-            width: 100px;
-            height: 30px;
-        }
-        form {
-            padding: 150px;
-            background-color:#E6E6FA;
+            background-color: #44a7e0;
+            border-color: #203953;
+            align-content: center;
+            color: white;
+            justify-content: center;
+            width: 150px;
+            height: 40px;
         }
     </style>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
 <body>
+    <div class="container-flex" style="width: 100vw; margin: 0;">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">COVVAC</a>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0" style="margin-left: 70%;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="whyCovacc.html">Why COVVAC?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
     <form>
-        <h1 style="color: #1E5878; text-align: center;"> <b>COVACC Registration Form</b></h1>
+
+        <h1 style="color: #1E5878; text-align: center;"> <b>COVVAC Registration Form</b></h1>
+
         <table align="center">
             <tr>
                 <td>
-                    First Name<span style="color: red;">*</span>:
+                    First Name<span style="color: red;"> *</span> :
                 </td>
 
                 <td>
@@ -68,7 +89,7 @@
             <tr>
             <tr>
                 <td>
-                    Last Name<span style="color: red;">*</span>:
+                    Last Name<span style="color: red;"> *</span> :
                 </td>
 
                 <td>
@@ -78,7 +99,7 @@
             <tr>
             <tr>
                 <td>
-                    Email Address<span style="color: red;">*</span>:
+                    Email Address<span style="color: red;"> *</span> :
                 </td>
 
                 <td>
@@ -87,7 +108,7 @@
             </tr>
             <tr>
                 <td>
-                    Password<span style="color: red;">*</span>:
+                    Password<span style="color: red;"> *</span> :
                 </td>
 
                 <td>
@@ -96,7 +117,7 @@
             </tr>
             <tr>
                 <td>
-                    Re-enter Password<span style="color: red;">*</span>:
+                    Re-enter Password<span style="color: red;"> *</span> :
                 </td>
 
                 <td>
@@ -116,12 +137,12 @@
             <tr>
                 <td>
                     <br>
-                    <button type="submit" class="registerbtn">Register</button>
+                    <button style="border-radius: 5px;" type="submit" class="registerbtn">Register</button>
 
                 </td>
                 <td>
                     <br>
-                    <button type="submit" class="signbtn">Sign in</button>
+                    <button style="border-radius: 5px;" type="submit" class="signbtn"> <a href="index.html">Sign in  </button></a>
                 </td>
             </tr>
         </table>
