@@ -14,6 +14,16 @@ Praneeth Vallabhaneni
 ## Description :
 COVVAC is here to help you protect yourself from the virus and decrease the risk of infecting other people in your community and around the world.Our App helps you know if you are eligible to take the vaccine and what precautions and considerations  you can follow . our app collect your health information and based on the record it will display required result information 
 
+## Motive :
+The COVVAC is here to help you protect yourself from the virus and decrease the risk of infecting other people in your community and around the world.Your safety is a top priority, and there are many reasons to get vaccinated. None of the COVID-19 vaccines contain the live virus that causes COVID-19 so a COVID-19 vaccine cannot make you sick.
+The main motive of our website is to help you know if you are eligible to take the vaccine and what is the risk rate of vaccine based on your health record.
+
+
+
+
+
+
+
 
 
 ## App Name and Logo :
@@ -23,19 +33,25 @@ COVVAC website  by Team Gandora
 
 ### Home page
 
-USer can see why covacc information and what our app does along with user login and user Registration
+User  can see why covacc information and what our app does along with user login and user Registration
 
 #### Login & Registration
 
-USers can register to create account if its their first and time and will be able to login in to Covvac to get more details
+A user needs to register himself/herself to login into the page. All the details as per requirement must be filled in order to register. After the user is a registered member of our page, he/she can login into the web page.
+
+
+
+
 
 #### Health Form
 
-Users will be able to provide required information in health form and can submit . users can edit submitted forms to add mored details or to update nay detail
+After login in to Covvac user must provide health records to get their personal vaccination information
+
+
 
 #### Covid Info
 
-users will be able to go through  covid related information 
+users will be able to go through  each individual page to get  covid related information 
 
 #### Vaccine Info
 
